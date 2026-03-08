@@ -1,3 +1,14 @@
 @import 'tailwindcss';
 @plugin '@tailwindcss/typography';
 @import "@catppuccin/tailwindcss/mocha.css";
+
+.highlight-title {
+    border-right: 8px solid var(--color-ctp-blue);
+    padding-right: 8px;
+    background: linear-gradient(
+        90deg,
+        color-mix(in srgb, var(--color-ctp-pink) 40%, transparent),
+        color-mix(in srgb, var(--color-ctp-mauve) 40%, transparent),
+        color-mix(in srgb, var(--color-ctp-blue) 60%, transparent)
+    );
+}
