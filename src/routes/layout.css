@@ -3,12 +3,18 @@
 @import "@catppuccin/tailwindcss/mocha.css";
 
 .highlight-title {
-    border-right: 8px solid var(--color-ctp-blue);
-    padding-right: 8px;
+    border-left: 8px solid var(--color-ctp-blue);
+    padding-left: 8px;
     background: linear-gradient(
-        90deg,
-        color-mix(in srgb, var(--color-ctp-pink) 40%, transparent),
-        color-mix(in srgb, var(--color-ctp-mauve) 40%, transparent),
-        color-mix(in srgb, var(--color-ctp-blue) 60%, transparent)
+        270deg,
+        transparent,
+        color-mix(in srgb, var(--color-ctp-pink) 10%, transparent),
+        color-mix(in srgb, var(--color-ctp-mauve) 30%, transparent),
+        color-mix(in srgb, var(--color-ctp-blue) 50%, transparent)
     );
+}
+
+.error-background {
+    background-image: radial-gradient(circle at center, var(--color-ctp-red-200) 1px, transparent 0);
+    background-size: 10px 10px;
 }
