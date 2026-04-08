@@ -18,3 +18,11 @@
     background-image: radial-gradient(circle at center, var(--color-ctp-red-200) 1px, transparent 0);
     background-size: 10px 10px;
 }
+
+.disabled-background {
+    background: repeating-linear-gradient(45deg, var(--color-ctp-surface0), var(--color-ctp-surface0) 10px, var(--color-ctp-base) 10px, var(--color-ctp-base) 20px);
+}
+
+.music-overlay {
+    background: linear-gradient(90deg, transparent, var(--color-ctp-base) 80%);
+}
