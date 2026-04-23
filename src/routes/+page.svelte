@@ -6,5 +6,5 @@
     <h1 class="text-5xl italic font-serif highlight-title">circular</h1>
     <p>awesome</p>
     <p>pawesome</p>
+    <MusicStatus />
 </div>
-<MusicStatus />

@@ -22,7 +22,3 @@
 .disabled-background {
     background: repeating-linear-gradient(45deg, var(--color-ctp-surface0), var(--color-ctp-surface0) 10px, var(--color-ctp-base) 10px, var(--color-ctp-base) 20px);
 }
-
-.music-overlay {
-    background: linear-gradient(90deg, transparent, var(--color-ctp-base) 80%);
-}

@@ -27,54 +27,25 @@
 
 </script>
 
-<!-- {#if error}
-  <div
-    class="border-ctp-red-200 border-2 bg-opacity-30 p-2 h-32 flex gap-2 relative error-background items-center justify-center"
-  >
-    <p class="text-md text-ctp-red-100 bg-ctp-base font-serif">{error}</p>
-  </div>
-{:else}
-  <div
-    class="text-left border-ctp-subtext1 border-2 bg-opacity-30 p-2 h-32 flex gap-2 relative"
-  >
-    {#if image}
-      <img src={image} alt="Album Art" width="108" height="108" />
-    {:else}
-      <img src={circularCat200Bg} alt="Placeholder" width="108" height="108" />
-    {/if}
-    <div class="overflow-hidden flex flex-col">
-      {#if playing}
-        <p class="text-sm font-serif italic">Currently listening to:</p>
-      {:else}
-        <p class="text-sm font-serif italic">Last listened to:</p>
-      {/if}
-      <a class="text-lg overflow-auto" href={url}>{title}</a>
-      <p class="text-sm text-ctp-subtext0">{artist}</p>
-    </div>
-  </div> 176
-{/if} -->
-
 {#if error}
   <div class="border-ctp-surface0 border-2 h-44 w-44 p-4 flex disabled-background items-center justify-center">
     <p class="text-sm text-ctp-overlay0 font-serif text-center italic">music status unavailable</p>
   </div>
 {:else}
-  <div class="relative h-44 w-44">
+  <div class="flex flex-row gap-2">
     {#if image}
-      <img src={image} alt="Album Art" width="176" height="176" />
+      <img src={image} alt="Album Art" width="96" height="96" />
     {:else}
-      <img src={circularCat200Bg} alt="Placeholder" width="176" height="176" />
+      <img src={circularCat200Bg} alt="Placeholder" width="96" height="96" />
     {/if}
-    <div class="overflow-hidden flex flex-col absolute top-0 left-0">
+    <div class="flex flex-col w-full">
       {#if playing}
         <p class="text-sm font-serif italic">Currently listening to:</p>
       {:else}
         <p class="text-sm font-serif italic">Last listened to:</p>
       {/if}
-    </div>
-    <div class="overflow-hidden flex flex-col absolute bottom-0 right-0 text-right music-overlay">
+      <a class="text-lg text-nowrap text-ellipsis overflow-hidden" href={url}>{title}</a>
       <p class="text-sm text-ctp-subtext0">{artist}</p>
-      <a class="text-lg overflow-auto" href={url}>{title}</a>
     </div>
   </div>
 {/if}
