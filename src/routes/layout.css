@@ -22,3 +22,23 @@
 .disabled-background {
     background: repeating-linear-gradient(45deg, var(--color-ctp-surface0), var(--color-ctp-surface0) 10px, var(--color-ctp-base) 10px, var(--color-ctp-base) 20px);
 }
+
+.seperator {
+    border: 1px solid var(--color-ctp-surface1);
+    width: 50%;
+    align-self: center;
+}
+
+.link {
+    color: var(--color-ctp-lavender);
+    border-color: var(--color-ctp-lavender);
+    border-width: 1px;
+    padding: 0.25rem 0.75rem;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.link:hover {
+    background: var(--color-ctp-lavender);
+    color: var(--color-ctp-mantle);
+}

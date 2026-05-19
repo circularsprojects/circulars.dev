@@ -10,6 +10,7 @@
   let title = $state("loading last.fm...");
   let url = $state("");
   let artist = $state("circular :3");
+  //let date = $state("");
   let playing = $state(false);
 
   websocket.addEventListener("error", (e) => {
@@ -22,14 +23,16 @@
     title = data.recenttracks.track[0].name;
     url = data.recenttracks.track[0].url;
     artist = data.recenttracks.track[0].artist["#text"];
+    //date = new Date(parseInt(data.recenttracks.track[0].date?.uts) * 1000).toLocaleTimeString();
     image = data.recenttracks.track[0].image[3]["#text"];
   })
 
 </script>
 
 {#if error}
-  <div class="border-ctp-surface0 border-2 h-44 w-44 p-4 flex disabled-background items-center justify-center">
-    <p class="text-sm text-ctp-overlay0 font-serif text-center italic">music status unavailable</p>
+  <div class="flex flex-row gap-2">
+    <div class="border-ctp-surface0 border-2 h-24 w-24 p-4 flex disabled-background items-center justify-center"></div>
+    <p class="text-sm text-ctp-overlay0 font-serif italic">music status unavailable</p>
   </div>
 {:else}
   <div class="flex flex-row gap-2">
