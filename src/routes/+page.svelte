@@ -28,4 +28,12 @@
       url="https://discord.com/api/oauth2/authorize?client_id=866362531546398752&permissions=51200&scope=applications.commands%20bot"
       urlLabel="Invite"
     />
+    <ShowcaseCard
+      title="detnsw-autologin"
+      description="An app to automatically log into detnsw school internet."
+      icon="detnsw-autologin.jpeg"
+      image="detnswimage-dark.png"
+      url="https://github.com/circularsprojects/detnsw-autologin-macos"
+      urlLabel="Github"
+    />
 </div>

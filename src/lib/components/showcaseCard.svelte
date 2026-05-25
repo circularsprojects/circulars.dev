@@ -8,7 +8,12 @@
     image: string;
     url: string;
     urlLabel?: string;
+    tags?: Array<ShowcaseCardTags>;
   } = $props();
+
+  type ShowcaseCardTags = "swift" | "javascript"
+  | "web" | "mobile" | "desktop"
+  | "opensource";
 </script>
 
 <div class="flex flex-col h-48 p-4 bg-ctp-mantle justify-between relative" style="border-left: 8px solid {titleHash(title)};">
