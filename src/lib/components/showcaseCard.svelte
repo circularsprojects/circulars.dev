@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { titleHash } from "$lib/titleHash"
+  import { random } from "$lib/titleColor"
 
   let { title, description, icon, image, url, urlLabel }: {
     title: string;
@@ -16,7 +16,7 @@
   | "opensource";
 </script>
 
-<div class="flex flex-col h-48 p-4 bg-ctp-mantle justify-between relative" style="border-left: 8px solid {titleHash(title)};">
+<div class="flex flex-col h-48 p-4 bg-ctp-mantle justify-between relative" style="border-left: 8px solid {random()};">
   <div class="flex flex-row items-center gap-2 z-10">
     <img src="{icon}" alt="{title} logo" width="48" height="48" class="rounded-xl">
     <h2 class="text-3xl font-serif">{title}</h2>

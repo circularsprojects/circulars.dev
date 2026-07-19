@@ -1,5 +1,5 @@
 /*
-  titleHash.ts
+  titleColor.ts
 
   Transforming a string (the title) into a (semi) unique color.
   This process doesn't have to be perfect, it just has to give one color for one input, and give another color for another.
@@ -29,4 +29,8 @@ export function titleHash(title: string) {
   }
   sum += title.length; // "foodbot" and "watchcord" collided by pure chance before adding this lmao
   return catppuccinColors[sum % catppuccinColors.length]
+}
+
+export function random() {
+  return catppuccinColors[Math.floor(Math.random() * catppuccinColors.length)]
 }
