@@ -23,6 +23,45 @@
     background: repeating-linear-gradient(45deg, var(--color-ctp-surface0), var(--color-ctp-surface0) 10px, var(--color-ctp-base) 10px, var(--color-ctp-base) 20px);
 }
 
+.site-background {
+    /* you can mess with these in inspect element! */
+    --offset: 400px;
+    --size: 40px;
+    --angle: 74deg;
+
+    --stop-1: var(--color-ctp-rosewater);
+    --stop-2: var(--color-ctp-flamingo);
+    --stop-3: var(--color-ctp-pink);
+    --stop-4: var(--color-ctp-mauve);
+
+    background-image: linear-gradient(var(--angle),
+        var(--color-ctp-base) calc(0px + var(--offset)),
+        var(--color-ctp-base) calc(1 * var(--size) + var(--offset)),
+        var(--stop-1) calc(1 * var(--size) + var(--offset)),
+        var(--stop-1) calc(2 * var(--size) + var(--offset)),
+        var(--stop-2) calc(2 * var(--size) + var(--offset)),
+        var(--stop-2) calc(3 * var(--size) + var(--offset)),
+        var(--stop-3) calc(3 * var(--size) + var(--offset)),
+        var(--stop-3) calc(4 * var(--size) + var(--offset)),
+        var(--stop-4) calc(4 * var(--size) + var(--offset)),
+        var(--stop-4) calc(5 * var(--size) + var(--offset)),
+        var(--color-ctp-base) calc(5 * var(--size) + var(--offset))
+    );
+    background-size: 100%;
+}
+
+@media (width < 768px) {
+    .site-background {
+        --offset: 272px;
+        --size: 30px;
+    }
+}
+
+.blur-bg {
+    background: color-mix(in srgb, var(--color-ctp-base) 30%, transparent);
+    backdrop-filter: blur(10px);
+}
+
 .seperator {
     border: 1px solid var(--color-ctp-surface1);
     width: 50%;
