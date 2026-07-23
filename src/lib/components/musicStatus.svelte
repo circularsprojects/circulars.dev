@@ -2,7 +2,8 @@
   import circularCat200Bg from "$lib/assets/circular-cat-200-bg.gif";
   import type { LastFMRecentTracks } from "$lib/lastfm";
   
-  const websocket = new WebSocket("ws://localhost:3000/ws");
+  let websocket: WebSocket;
+  let backoff = 0;
 
   let error = $state(false);
 
@@ -13,19 +14,43 @@
   //let date = $state("");
   let playing = $state(false);
 
-  websocket.addEventListener("error", (e) => {
-    error = true;
-  });
+  function connect() {
+    websocket = new WebSocket("ws://localhost:3000/ws");
 
-  websocket.addEventListener("message", (event) => {
-    const data = JSON.parse(event.data) as LastFMRecentTracks;
-    playing = data.recenttracks.track[0]["@attr"]?.nowplaying === "true";
-    title = data.recenttracks.track[0].name;
-    url = data.recenttracks.track[0].url;
-    artist = data.recenttracks.track[0].artist["#text"];
-    //date = new Date(parseInt(data.recenttracks.track[0].date?.uts) * 1000).toLocaleTimeString();
-    image = data.recenttracks.track[0].image[3]["#text"];
-  })
+    websocket.addEventListener("error", (e) => {
+      error = true;
+    });
+
+    websocket.addEventListener("message", (event) => {
+      const data = JSON.parse(event.data) as LastFMRecentTracks;
+      playing = data.recenttracks.track[0]["@attr"]?.nowplaying === "true";
+      title = data.recenttracks.track[0].name;
+      url = data.recenttracks.track[0].url;
+      artist = data.recenttracks.track[0].artist["#text"];
+      //date = new Date(parseInt(data.recenttracks.track[0].date?.uts) * 1000).toLocaleTimeString();
+      image = data.recenttracks.track[0].image[3]["#text"];
+    })
+
+    websocket.addEventListener("open", (_) => {
+      console.log("connected!");
+      backoff = 0;
+      error = false;
+    });
+
+    websocket.addEventListener("close", (_) => {
+      console.log("websocket failed");
+      error = true;
+      backoff++;
+      if (backoff < 6) {
+        console.log(`retrying in ${5 * backoff} seconds`);
+        setTimeout(() => {
+          connect();
+        }, 5000 * backoff);
+      }
+    });
+  }
+
+  connect();
 
 </script>
 

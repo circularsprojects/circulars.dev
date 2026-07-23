@@ -1,11 +1,10 @@
 <script lang="ts">
-  import { random } from "$lib/titleColor"
-
-  let { title, description, icon, image, url, urlLabel }: {
+  let { title, description, icon, image, color, url, urlLabel }: {
     title: string;
     description: string;
     icon: string;
     image: string;
+    color: string;
     url: string;
     urlLabel?: string;
     tags?: Array<ShowcaseCardTags>;
@@ -16,7 +15,7 @@
   | "opensource";
 </script>
 
-<div class="flex flex-col h-48 p-4 bg-ctp-mantle justify-between relative" style="border-left: 8px solid {random()};">
+<div class="flex flex-col h-48 p-4 bg-ctp-mantle justify-between relative showcase-card" style="--card-color: {color}">
   <div class="flex flex-row items-center gap-2 z-10">
     <img src="{icon}" alt="{title} logo" width="48" height="48" class="rounded-xl">
     <h2 class="text-3xl font-serif">{title}</h2>

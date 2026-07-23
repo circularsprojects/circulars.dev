@@ -14,6 +14,16 @@
     );
 }
 
+@media (width > 4000px) {
+    .highlight-title span {
+        display: none;
+    }
+
+    .highlight-title:after {
+        content: "too fucking small. zoom in";
+    }
+}
+
 .error-background {
     background-image: radial-gradient(circle at center, var(--color-ctp-red-200) 1px, transparent 0);
     background-size: 10px 10px;
@@ -57,12 +67,18 @@
     }
 }
 
+@media (prefers-contrast: more) {
+    .site-background {
+        background-image: none;
+    }
+}
+
 .blur-bg {
     background: color-mix(in srgb, var(--color-ctp-base) 30%, transparent);
     backdrop-filter: blur(10px);
 }
 
-.seperator {
+hr {
     border: 1px solid var(--color-ctp-surface1);
     width: 50%;
     align-self: center;
@@ -70,6 +86,18 @@
 
 .bg-fade-image {
     mask-image: linear-gradient(to right, black 0, transparent);
+}
+
+.showcase-card {
+    /* this gets changed anyways */
+    /* --card-color: var(--color-ctp-base); */
+
+    border-left: 8px solid var(--card-color);
+    transition: all 0.15s ease;
+}
+
+.showcase-card:hover {
+    background: color-mix(in srgb, var(--card-color) 20%, var(--color-ctp-mantle) 100%);
 }
 
 .link {
