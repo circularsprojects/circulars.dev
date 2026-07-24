@@ -45,11 +45,12 @@
     <h1 class="text-4xl italic font-serif">more about me</h1>
     <div>
       <p>i'm circular</p>
-      <p>i'm a cat ΘΔ with a great interest in computers and software based in sydney, australia.</p>
+      <p>i'm a cat ΘΔ &#128008 with a great interest in computers and software based in sydney, australia.</p>
       <p>i have a diploma in information technology, and i'm currently studying towards a bachelor's degree (first year)</p>
+      <p>i daily drive cachyos on my main computer, and also run fedora linux on my homelab server.</p>
       <p>i was one of the 350 winners of the apple swift student challenge in 2024</p>
       <p>i fuckig love pallas/manul cats. if you go to my twitter almost all of my reposts are just pallas cats ooooouuu i love them i love them so much</p>
-      <p>i daily drive cachyos on my main computer, and also run fedora linux on my homelab server.</p>
+      <img src="pallascat.jpg" alt="pallas cat" class="max-w-[25%]">
       <br>
       <p>some other things i love / am interested in:</p>
       <ul class="list-disc list-inside">
@@ -62,6 +63,6 @@
     <hr>
     <h1 class="text-4xl italic font-serif">links and socials</h1>
     <div>
-
+      <p><a href="https://x.com/circlure2" class="text-ctp-lavender underline">twitter</a></p>
     </div>
 </div>
