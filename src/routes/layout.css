@@ -112,3 +112,17 @@ hr {
     background: var(--color-ctp-lavender);
     color: var(--color-ctp-mantle);
 }
+
+.buttons a {
+    image-rendering: pixelated;
+    transition-timing-function: cubic-bezier(.33,1.11,.69,1.5);
+    transition-duration: 0.15s;
+}
+
+.buttons a:nth-child(even):hover {
+    transform: rotate(3deg) scale(1.25);
+}
+
+.buttons a:nth-child(odd):hover {
+    transform: rotate(-3deg) scale(1.25);
+}

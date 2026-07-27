@@ -2,6 +2,7 @@
   import MusicStatus from "$lib/components/musicStatus.svelte";
   import ShowcaseCard from "$lib/components/showcaseCard.svelte";
   import cat from '$lib/assets/circular-cat-200-bg.gif';
+  import Button from "$lib/components/88x31.svelte";
 </script>
 
 <div class="w-full text-left flex flex-col gap-4">
@@ -55,14 +56,22 @@
       <p>some other things i love / am interested in:</p>
       <ul class="list-disc list-inside">
         <li>rainbow six siege <em class="text-sm text-ctp-subtext0">(unfortunately. >1200 hours.)</em></li>
-        <li>dungeons n dragons and other table top games</li>
+        <li>dungeons n dragons and other table top / card games</li>
         <li><a href="https://www.last.fm/user/circular_" class="text-ctp-lavender underline">music</a></li>
         <li>cosplay <em class="text-sm text-ctp-subtext0">(i've cosplayed neco arc a few times before. if you've seen a really tall neco arc in sydney thats maybe me)</em></li>
       </ul>
     </div>
     <hr>
     <h1 class="text-4xl italic font-serif">links and socials</h1>
+    <div class="flex flex-wrap gap-2 buttons">
+      <Button link="https://discord.com/users/305243321784336384" image="buttons/my/discord.png" alt="discord" title="my username is circular" />
+      <Button link="https://x.com/circlure2" image="buttons/my/twitter.png" alt="twitter" title="im not calling it x lmfao" />
+      <Button link="https://github.com/circularsprojects" image="buttons/my/github.png" alt="github" title="github" />
+      <Button link="https://last.fm/user/circular_" image="buttons/my/lastfm.png" alt="last.fm" title="music ough" />
+      <Button link="https://wetdry.world/@circular" image="buttons/my/mastodon.png" alt="mastodon" title="i don't use mastodon very often but im there" />
+    </div>
     <div>
-      <p><a href="https://x.com/circlure2" class="text-ctp-lavender underline">twitter</a></p>
+      <p>if you want my email, it's <span class="font-serif text-ctp-lavender">c&#x200B;i&#x200C;r&#x200D;c&#x200B;u&#x200C;l&#x200D;a&#x200B;r</span> &#x200B;@&#x200D; <span class="font-serif text-ctp-lavender">t&#x200C;h&#x200C;i&#x200B;s d&#x200D;o&#x200C;m&#x200B;a&#x200D;i&#x200B;n</span></p>
+      <p>to prevent scrapers, do not copy paste the above. just type out the email manually</p>
     </div>
 </div>
