@@ -73,6 +73,7 @@
     <div>
       <p>if you want my email, it's <span class="font-serif text-ctp-lavender">c&#x200B;i&#x200C;r&#x200D;c&#x200B;u&#x200C;l&#x200D;a&#x200B;r</span> &#x200B;@&#x200D; <span class="font-serif text-ctp-lavender">t&#x200C;h&#x200C;i&#x200B;s d&#x200D;o&#x200C;m&#x200B;a&#x200D;i&#x200B;n</span></p>
       <p>to prevent scrapers, do not copy paste the above. just type out the email manually</p>
+      <p class="text-sm text-ctp-subtext0">want these buttons? .png and .aseprite files are in this website's repo! (don't hotlink)</p>
     </div>
     <hr>
     <h1 class="text-4xl italic font-serif">services</h1>
@@ -82,6 +83,10 @@
     </div>
     <hr>
     <h1 class="text-4xl italic font-serif">buttons!!</h1>
+    <div>
+      <p>my button : 3 <em class="text-sm text-ctp-subtext0">(please hotlink!)</em></p>
+      <Button link="https://circulars.dev" image="/circular-88x31.gif" alt="circulars.dev" title="circulars.dev" />
+    </div>
     <div class="flex flex-wrap gap-2 buttons">
       <Button link="https://necoarc.dev" image="https://necoarc.dev/assets/necoarc-88x31.png" alt="necoarc.dev" title="ENTER THE DOMAIN OF THE PROFANED ONE" />
       <Button link="https://silly.city" image="https://silly.city/silly.gif" alt="silly city" />

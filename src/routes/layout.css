@@ -114,7 +114,6 @@ hr {
 }
 
 .buttons a {
-    image-rendering: pixelated;
     transition-timing-function: cubic-bezier(.33,1.11,.69,1.5);
     transition-duration: 0.15s;
 }
