@@ -74,4 +74,30 @@
       <p>if you want my email, it's <span class="font-serif text-ctp-lavender">c&#x200B;i&#x200C;r&#x200D;c&#x200B;u&#x200C;l&#x200D;a&#x200B;r</span> &#x200B;@&#x200D; <span class="font-serif text-ctp-lavender">t&#x200C;h&#x200C;i&#x200B;s d&#x200D;o&#x200C;m&#x200B;a&#x200D;i&#x200B;n</span></p>
       <p>to prevent scrapers, do not copy paste the above. just type out the email manually</p>
     </div>
+    <hr>
+    <h1 class="text-4xl italic font-serif">services</h1>
+    <div>
+      <p>i publicly host <a href="https://4get.circulars.dev" class="text-ctp-lavender underline">4get</a>, a privacy-focused proxy search engine.</p>
+      <p>i also host jellyfin, however access is only for people i know.</p>
+    </div>
+    <hr>
+    <h1 class="text-4xl italic font-serif">buttons!!</h1>
+    <div class="flex flex-wrap gap-2 buttons">
+      <Button link="https://necoarc.dev" image="https://necoarc.dev/assets/necoarc-88x31.png" alt="necoarc.dev" title="ENTER THE DOMAIN OF THE PROFANED ONE" />
+      <Button link="https://silly.city" image="https://silly.city/silly.gif" alt="silly city" />
+      <Button link="https://bomberfish.ca" image="https://bomberfish.ca/buttons/button.gif" alt="" />
+      <Button link="https://remblanc.nekoweb.org" image="https://remblanc.nekoweb.org/images/button.png" alt="" />
+      <Button link="https://immjs.dev/" image="https://immjs.dev/88x31s/immjs.dev.gif" alt="" />
+      <Button link="https://freeplay.floof.company" image="https://freeplay.floof.company/assets/buttons/free.gif" alt="" />
+      <Button link="https://dimden.dev/" image="https://dimden.dev/services/images/88x31.gif" alt="" />
+      <Button link="https://760ceb3b9c0ba4872cadf3ce35a7a494.neocities.org" image="https://760ceb3b9c0ba4872cadf3ce35a7a494.neocities.org/people/760ceb3b9c0ba4872cadf3ce35a7a494.png" alt="" />
+      <Button link="https://giikis2.nekoweb.org/" image="https://giikis2.nekoweb.org/assets/badges/giikis2.png" alt="" />
+      <Button link="https://claration.dev" image="https://claration.dev/88x31/me.png" alt="" />
+      <Button link="https://lucida.to" image="buttons/other/lucida.gif" alt="" />
+      <Button link="https://nyoemii.dev" image="https://nyoemii.dev/media/img/button.png" alt="noemi" />
+      <Button link="https://prpl.wtf" image="https://prpl.wtf/assets/images/88x31/prpl_wtf.gif" alt="emma" />
+      <Button link="https://kn4ughty.com" image="https://kn4ughty.com/images/extra/88x31.gif" alt="kn4ughty" />
+      <Button link="https://plushiekitty.party" image="https://plushiekitty.party/button.gif" alt="mocha" />
+      <Button link="https://ravarcheon.com" image="https://ravarcheon.com/images/88x31/ravarcheon.gif" alt="ravarcheon" />
+    </div>
 </div>
