@@ -4,8 +4,6 @@
 	import Kitty from "$lib/components/kitty.svelte";
 
 	let { children } = $props();
-
-	export const prerender = true;
 </script>
 
 <svelte:head>
