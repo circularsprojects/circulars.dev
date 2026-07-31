@@ -3,6 +3,8 @@
 	import cat from '$lib/assets/circular-cat-200-bg.gif';
 
 	let { children } = $props();
+
+	export const prerender = true;
 </script>
 
 <svelte:head>
