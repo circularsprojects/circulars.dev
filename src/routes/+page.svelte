@@ -104,6 +104,7 @@
     <Button link="https://kn4ughty.com" image="https://kn4ughty.com/images/extra/88x31.gif" alt="kn4ughty" title="kn4ughty rust ouhhh" />
     <Button link="https://plushiekitty.party" image="https://plushiekitty.party/button.gif" alt="mocha" title="mocha" />
     <Button link="https://ravarcheon.com" image="https://ravarcheon.com/images/88x31/ravarcheon.gif" alt="ravarcheon" title="wawa" />
+    <Button link="https://carminecassie.com" image="https://carminecassie.com/88x31.png" alt="carmine cassie" title="cassie the red one" />
     <Button link="https://corru.observer" image="https://corru.observer/8831.gif" alt="corru observer" title="corru observer" />
     <Button link="https://tailscale.com" image="buttons/other/tailscale.webp" alt="tailscale" title="tailscale" />
   </div>
