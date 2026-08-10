@@ -127,6 +127,11 @@
           <td class="hover:text-ctp-lavender duration-150"><a href='https://silly.city'>silly city :3</a></td>
           <td class="hover:text-ctp-lavender hover:translate-x-1 duration-150"><a href='https://silly.city/next?user=circular'>--&gt;</a></td>
         </tr>
+        <tr>
+          <td class="hover:text-ctp-lavender hover:-translate-x-1 duration-150"><a href='https://charon.monster/'>&lt;--</a></td>
+          <td class="hover:text-ctp-lavender duration-150"><a href='https://softmachine.dev/webring/linuxring/'>*nixRing</a></td>
+          <td class="hover:text-ctp-lavender hover:translate-x-1 duration-150"><a href='https://tommi.space/'>--&gt;</a></td>
+        </tr>
       </tbody>
     </table>
   </div>
