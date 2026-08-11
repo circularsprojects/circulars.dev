@@ -55,10 +55,23 @@
 
 </script>
 
-{#if error}
+{#if error && !url}
   <div class="flex flex-row gap-2">
     <div class="border-ctp-surface0 border-2 h-24 w-24 p-4 flex disabled-background items-center justify-center"></div>
     <p class="text-sm text-ctp-overlay0 font-serif italic">music status unavailable</p>
+  </div>
+{:else if error}
+  <div class="flex flex-row gap-2">
+    {#if image}
+      <img src={image} alt="Album Art" width="96" height="96" />
+    {:else}
+      <img src={circularCat200Bg} alt="Placeholder" width="96" height="96" />
+    {/if}
+    <div class="flex flex-col w-full">
+      <p class="text-sm font-serif italic">Last listened to: <span class="text-xs text-ctp-subtext0">(disconnected from websocket)</span></p>
+      <a class="text-lg text-nowrap text-ellipsis overflow-hidden" href={url}>{title}</a>
+      <p class="text-sm text-ctp-subtext0">{artist}</p>
+    </div>
   </div>
 {:else}
   <div class="flex flex-row gap-2">
