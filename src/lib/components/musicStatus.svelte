@@ -16,7 +16,8 @@
 
   function connect() {
     // websocket = new WebSocket("ws://localhost:3000/ws");
-    websocket = new WebSocket("wss://circulars.dev/lastfm/ws");
+    // websocket = new WebSocket("wss://circulars.dev/lastfm/ws"); // Fuck you cloudflare
+    websocket = new WebSocket("wss://ws.circulars.dev/lastfm/ws");
 
     websocket.addEventListener("error", (e) => {
       error = true;
