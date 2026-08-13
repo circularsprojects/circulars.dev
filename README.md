@@ -17,6 +17,16 @@ If you want to add my 88x31 button to your website, you can do so with this litt
 
 *make sure to set the `image-rendering` css rule to `pixelated`*
 
+If you want the button for [necoarc.dev](https://necoarc.dev), you can use this snippet:
+
+```html
+<a href="https://necoarc.dev">
+  <img src="https://necoarc.dev/assets/necoarc-88x31.png" width="88" height="31">
+</a>
+```
+
+For my button and the button for necoarc.dev, hotlinking is greatly encouraged! For the social media buttons, I'd recommend just hosting them yourself.
+
 ## Backend
 
 My site uses two different backend services written in Rust.
