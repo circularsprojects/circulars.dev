@@ -1,9 +1,10 @@
 <script lang="ts">
-  let { title, description, icon, image, color, url, urlLabel }: {
+  let { title, description, icon, image, lightimage, color, url, urlLabel }: {
     title: string;
     description: string;
     icon: string;
     image: string;
+    lightimage?: string;
     color: string;
     url: string;
     urlLabel?: string;
@@ -26,5 +27,12 @@
     </div>
     <a href="{url}" target="_blank" class="link">{urlLabel || "Website"}</a>
   </div>
-  <img class="h-48 object-cover absolute right-0 bottom-0 bg-fade-image max-w-[30%]" src="{image}" alt="{title} image">
+  <picture class="object-cover absolute right-0 bottom-0 bg-fade-image max-w-[30%]">
+    {#if lightimage}
+      <source srcset="{image}" media="(prefers-color-scheme: dark)" />
+      <source srcset="{lightimage}" media="(prefers-color-scheme: light)" />
+    {/if}
+
+    <img class="h-48" src="{image}" alt="{title} image">
+  </picture>
 </div>

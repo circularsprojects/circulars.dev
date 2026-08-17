@@ -21,6 +21,7 @@
     description="This website, built with Svelte."
     icon={cat}
     image="circular-cat-transparent.png"
+    lightimage="circular-cat-black-transparent.png"
     color="var(--color-ctp-pink)"
     url="https://github.com/circularsprojects/circulars.dev"
     urlLabel="Github"
