@@ -31,6 +31,10 @@
       artist = data.recenttracks.track[0].artist["#text"];
       //date = new Date(parseInt(data.recenttracks.track[0].date?.uts) * 1000).toLocaleTimeString();
       image = data.recenttracks.track[0].image[3]["#text"];
+
+      // some songs i listen to i dont really want showing up on my website as i feel like theyre a bit ......... harshly worded, so to speak
+      // im just gonna add more .replace methods here as i find more and more songs i listen to on occasion that i dont want showing up
+      title = title.replace(/KILL YOURSELF/g, "LOVE YOURSELF");
     })
 
     websocket.addEventListener("open", (_) => {
