@@ -134,6 +134,11 @@
           <td class="hover:text-ctp-lavender duration-150"><a href='https://softmachine.dev/webring/linuxring/'>*nixRing</a></td>
           <td class="hover:text-ctp-lavender hover:translate-x-1 duration-150"><a href='https://tommi.space/'>--&gt;</a></td>
         </tr>
+        <tr>
+          <td class="hover:text-ctp-lavender hover:-translate-x-1 duration-150"><a href='https://oneluckymushroom.dev/webring/previous/?source=circular'>&lt;--</a></td>
+          <td class="hover:text-ctp-lavender duration-150"><a href='https://github.com/Madelyn-of-Hell/maddie-backend'>compute webring</a></td>
+          <td class="hover:text-ctp-lavender hover:translate-x-1 duration-150"><a href='https://oneluckymushroom.dev/webring/next/?source=circular'>--&gt;</a></td>
+        </tr>
       </tbody>
     </table>
   </div>
