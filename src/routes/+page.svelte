@@ -135,9 +135,9 @@
           <td class="hover:text-ctp-lavender hover:translate-x-1 duration-150"><a href='https://tommi.space/'>--&gt;</a></td>
         </tr>
         <tr>
-          <td class="hover:text-ctp-lavender hover:-translate-x-1 duration-150"><a href='https://webring.pawswap.space/previous/?source=https://circulars.dev/'>&lt;--</a></td>
+          <td class="hover:text-ctp-lavender hover:-translate-x-1 duration-150"><a href='https://webring.pawswap.space/previous?from=https://circulars.dev/'>&lt;--</a></td>
           <td class="hover:text-ctp-lavender duration-150"><a href='https://github.com/Madelyn-of-Hell/maddie-backend'>compute webring</a></td>
-          <td class="hover:text-ctp-lavender hover:translate-x-1 duration-150"><a href='https://webring.pawswap.space/next/?source=https://circulars.dev/'>--&gt;</a></td>
+          <td class="hover:text-ctp-lavender hover:translate-x-1 duration-150"><a href='https://webring.pawswap.space/next?from=https://circulars.dev/'>--&gt;</a></td>
         </tr>
       </tbody>
     </table>
