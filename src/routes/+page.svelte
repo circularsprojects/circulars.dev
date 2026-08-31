@@ -74,6 +74,7 @@
   <div>
     <p>if you want my email, it's <span class="font-serif text-ctp-lavender">c&#x200B;i&#x200C;r&#x200D;c&#x200B;u&#x200C;l&#x200D;a&#x200B;r</span> &#x200B;@&#x200D; <span class="font-serif text-ctp-lavender">t&#x200C;h&#x200C;i&#x200B;s d&#x200D;o&#x200C;m&#x200B;a&#x200D;i&#x200B;n</span></p>
     <p>to prevent scrapers, do not copy paste the above. just type out the email manually</p>
+    <p>if you wish to encrypt your emails, my pgp key is <a href="circular.asc">available here</a></p>
     <p class="text-sm text-ctp-subtext0">want these buttons? .png and .aseprite files are in this website's repo! (don't hotlink)</p>
   </div>
   <hr>
@@ -136,7 +137,7 @@
         </tr>
         <tr>
           <td class="hover:text-ctp-lavender hover:-translate-x-1 duration-150"><a href='https://webring.pawswap.space/previous?from=https://circulars.dev/'>&lt;--</a></td>
-          <td class="hover:text-ctp-lavender duration-150"><a href='https://github.com/Madelyn-of-Hell/maddie-backend'>compute webring</a></td>
+          <td class="hover:text-ctp-lavender duration-150"><a href='https://webring.pawswap.space'>pawswap webring</a></td>
           <td class="hover:text-ctp-lavender hover:translate-x-1 duration-150"><a href='https://webring.pawswap.space/next?from=https://circulars.dev/'>--&gt;</a></td>
         </tr>
       </tbody>
