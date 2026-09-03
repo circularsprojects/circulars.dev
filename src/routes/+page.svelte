@@ -110,6 +110,7 @@
     <Button link="https://corru.observer" image="https://corru.observer/8831.gif" alt="corru observer" title="corru observer" />
     <Button link="https://tailscale.com" image="buttons/other/tailscale.webp" alt="tailscale" title="tailscale" />
     <Button link="https://oneluckymushroom.dev" image="https://oneluckymushroom.dev/files/88x31.gif" alt="maddie" title="maddie" />
+    <Button link="https://lain.ovh" image="https://lain.ovh/assets/other/88x31.gif" alt="lain" title="lain" />
   </div>
   <iframe width="180" height="180" style="border:none" src="https://dimden.neocities.org/navlink/" name="neolink" title="neolink" loading=lazy></iframe>
   <h1 class="text-4xl italic font-serif">webrings</h1>
