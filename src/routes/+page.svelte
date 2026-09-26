@@ -70,6 +70,7 @@
     <Button link="https://github.com/circularsprojects" image="buttons/my/github.png" alt="github" title="github" />
     <Button link="https://last.fm/user/circular_" image="buttons/my/lastfm.png" alt="last.fm" title="music ough" />
     <Button link="https://wetdry.world/@circular" image="buttons/my/mastodon.png" alt="mastodon" title="i don't use mastodon very often but im there" />
+    <Button link="https://signal.me/#eu/KArBXJwNqa5GP_E-V6hC8XvctwD-ZmZ0LSx6Peub9OtBrUboKzxP4qCjbw5EZ5J3" image="buttons/my/signal.png" alt="signal" title="signal. trying to use this more" />
   </div>
   <div>
     <p>if you want my email, it's <span class="font-serif text-ctp-lavender">c&#x200B;i&#x200C;r&#x200D;c&#x200B;u&#x200C;l&#x200D;a&#x200B;r</span> &#x200B;@&#x200D; <span class="font-serif text-ctp-lavender">t&#x200C;h&#x200C;i&#x200B;s d&#x200D;o&#x200C;m&#x200B;a&#x200D;i&#x200B;n</span></p>
