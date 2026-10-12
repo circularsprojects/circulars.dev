@@ -103,7 +103,7 @@
     <Button link="https://claration.dev" image="https://claration.dev/88x31/me.png" alt="claration" title="samara" />
     <Button link="https://lucida.to" image="buttons/other/lucida.gif" alt="lucida" title="free music right fucking now" />
     <Button link="https://nyoemii.dev" image="https://nyoemii.dev/media/img/button.png" alt="noemi" title="noemi" />
-    <Button link="https://prpl.wtf" image="https://prpl.wtf/assets/images/88x31/prpl_wtf.gif" alt="emma" title="emma blueprint" />
+    <Button link="https://prpl.wtf" image="https://prpl.wtf/img/88x31/prpl_wtf.gif" alt="emma" title="emma blueprint" />
     <Button link="https://kn4ughty.com" image="https://kn4ughty.com/images/extra/88x31.gif" alt="kn4ughty" title="kn4ughty rust ouhhh" />
     <Button link="https://plushiekitty.party" image="https://plushiekitty.party/button.gif" alt="mocha" title="mocha" />
     <Button link="https://ravarcheon.com" image="https://ravarcheon.com/images/88x31/ravarcheon.gif" alt="ravarcheon" title="wawa" />
