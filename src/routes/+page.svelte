@@ -112,6 +112,7 @@
     <Button link="https://tailscale.com" image="buttons/other/tailscale.webp" alt="tailscale" title="tailscale" />
     <Button link="https://oneluckymushroom.dev" image="https://oneluckymushroom.dev/files/88x31.gif" alt="maddie" title="maddie" />
     <Button link="https://lain.ovh" image="https://lain.ovh/assets/other/88x31.gif" alt="lain" title="lain" />
+    <Button link="https://otomir23.me" image="https://otomir23.me/88x31.png" alt="otomir23" title="otomir23" />
   </div>
   <iframe width="180" height="180" style="border:none" src="https://dimden.neocities.org/navlink/" name="neolink" title="neolink" loading=lazy></iframe>
   <h1 class="text-4xl italic font-serif">webrings</h1>
