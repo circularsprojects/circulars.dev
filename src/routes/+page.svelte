@@ -115,6 +115,7 @@
     <Button link="https://otomir23.me" image="https://otomir23.me/88x31.png" alt="otomir23" title="otomir23" />
     <Button link="https://possiblyaxolotl.com" image="https://possiblyaxolotl.com/assets/88x31/88x31.png" alt="possiblyaxolotl" title="possiblyaxolotl" />
     <Button link="https://www.lunarion31.dev" image="https://www.lunarion31.dev/static/img/buttons/lumi.gif" alt="lunarion31" title="lunarion31" />
+    <Button link="https://tiago.zip" image="https://tiago.zip/button.gif" alt="tiago.zip" title="tiago" />
   </div>
   <iframe width="180" height="180" style="border:none" src="https://dimden.neocities.org/navlink/" name="neolink" title="neolink" loading=lazy></iframe>
   <h1 class="text-4xl italic font-serif">webrings</h1>
