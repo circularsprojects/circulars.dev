@@ -2,6 +2,7 @@
 	import './layout.css';
 	import cat from '$lib/assets/circular-cat-200-bg.gif';
 	import Kitty from "$lib/components/kitty.svelte";
+  import Aspling from '$lib/components/aspling.svelte';
 
 	let { children } = $props();
 </script>
@@ -13,3 +14,4 @@
 	{@render children()}
 </div>
 <Kitty />
+<Aspling />
