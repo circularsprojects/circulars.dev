@@ -33,6 +33,6 @@
       <source srcset="{lightimage}" media="(prefers-color-scheme: light)" />
     {/if}
 
-    <img class="h-48" src="{image}" alt="{title} image">
+    <img class="h-48 object-cover" src="{image}" alt="{title} image">
   </picture>
 </div>
