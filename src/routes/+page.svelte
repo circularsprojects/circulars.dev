@@ -93,7 +93,7 @@
   <div class="flex flex-wrap gap-2 buttons">
     <Button link="https://necoarc.dev" image="https://necoarc.dev/assets/necoarc-88x31.png" alt="necoarc.dev" title="ENTER THE DOMAIN OF THE PROFANED ONE" />
     <Button link="https://silly.city" image="https://silly.city/silly.gif" alt="silly city" title="silly city webring :3" />
-    <Button link="https://bomberfish.ca" image="https://bomberfish.ca/buttons/button.gif" alt="bomberfish" title="explosion" />
+    <Button link="https://bomberfish.ca" image="https://bomberfish.ca/button.gif" alt="bomberfish" title="explosion" />
     <Button link="https://remblanc.nekoweb.org" image="https://remblanc.nekoweb.org/images/button.png" alt="remblanc" title="bucket ring neighbor remblanc" />
     <Button link="https://immjs.dev/" image="https://immjs.dev/88x31s/immjs.dev.gif" alt="immjs" title="immjs" />
     <Button link="https://freeplay.floof.company" image="https://freeplay.floof.company/assets/buttons/free.gif" alt="freeplay" title="freeeeeeeeeeeeeeeeeee" />
